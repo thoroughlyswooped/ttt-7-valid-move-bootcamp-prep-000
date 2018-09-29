@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move(board, n)
+def valid_move?(board, n)
   if (n.between(0,8) && !position_taken?(board, n))
     return true
   else
